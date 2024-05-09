@@ -1,0 +1,117 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* variables */
+:root {
+    --white: white;
+    --accents: #00C9B5;
+    --primary: #8A60FC;
+    --secondary: #140339;
+    --lightGray: #EEF1FF;
+    --black: black;
+    --fontFamily: "Poppins", sans-serif;
+    --fontSize: 18px;
+}
+/* basic styles */
+body {
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fontFamily);
+}
+h1 {
+    font-size: 79px;
+    font-weight: 800;
+    line-height: 93px;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 76px;
+}
+.btn {
+    border-radius: 0;
+    border: none;
+}
+.btn-success {
+    background: var(--accents);
+}
+.btn-success:hover {
+    background: var(--primary);
+}
+.py {
+    padding: 100px 0;
+}
+.pt {
+    padding-top: 100px;
+}
+.pb {
+    padding-bottom: 100px;
+}
+/* nav */
+nav.bg-body-tertiary {
+    background: transparent !important;
+}
+nav .nav-link {
+    color: var(--white);
+    font-size: 22px;
+}
+nav .nav-link:hover {
+    color: var(--accents);
+}
+nav .active {
+    color: var(--accents) !important;
+}
+/* main header */
+.mainHeader {
+    background: linear-gradient(rgba(0, 0, 0,.5), rgba(0, 0, 0,.5)), url(images/home-hero.png);
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0 100px 0;
+}
+.mainHeader h1 {
+    color: var(--white);
+}
+.mainHeader h1 span {
+    color: var(--accents);
+}
+.mainHeader p {
+    color: var(--white);
+}
+/* usluge */
+.usluge {
+    background: var(--secondary);
+    padding: 150px 0 100px 0;
+}
+.usluge .icon {
+    background: var(--primary);
+    padding: 10px;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin-top: -80px;
+}
+.usluge img {
+    width: 70%;
+}
+.usluge p {
+    color: var(--black);
+}
+.usluge .wrapper {
+    padding: 20px 40px 40px 40px;
+    background: var(--lightGray);
+}
+/* kursevi */
+.kursevi h2 {
+    border-left: 20px solid var(--primary);
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+
+/* responsive */
+@media(max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
