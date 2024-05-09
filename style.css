@@ -196,6 +196,32 @@ nav .active {
     padding-left: 20px;
     padding-bottom: 60px;
 }
+/* portfolio */
+.portfolio h2 {
+    border-left: 20px solid var(--accents);
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* responsive */
 @media(max-width: 767px) {
     h1 {
