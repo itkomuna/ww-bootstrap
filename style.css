@@ -140,6 +140,16 @@ nav .active {
     font-size: 21px;
     color: var(--accents);
 }
+/* o nama */
+.onama {
+    background: var(--secondary);
+}
+.onama h2 {
+    border-left: 20px solid var(--accents);
+    padding-left: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
 /* responsive */
 @media(max-width: 767px) {
     h1 {
