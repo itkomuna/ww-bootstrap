@@ -107,7 +107,39 @@ nav .active {
     padding-left: 20px;
     padding-bottom: 60px;
 }
-
+.kursevi .row:nth-child(2) {
+    margin-top: 100px;
+}
+.kursevi .kurs .text {
+    background: var(--secondary);
+    border-left: 10px solid var(--accents);
+}
+.kursevi .kurs .text span {
+    background: var(--lightGray);
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: var(--primary);
+    font-size: 16px;
+    line-height: 15px;
+    padding-top: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.kursevi .kurs .text span b {
+    font-size: 29px;
+}
+.kursevi .kurs .text h3 {
+    margin-bottom: 60px;
+}
+.kursevi .kurs .text i {
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+    font-size: 21px;
+    color: var(--accents);
+}
 /* responsive */
 @media(max-width: 767px) {
     h1 {
