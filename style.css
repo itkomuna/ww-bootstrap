@@ -150,6 +150,33 @@ nav .active {
     padding-bottom: 60px;
     margin-bottom: 80px;
 }
+/* tehnologije */
+.tehnologije {
+    background: var(--lightGray);
+}
+.tehnologije  .col-md-8 {
+    background: var(--secondary);
+}
+.tehnologije h2 {
+    line-height: 1;
+    border-left: 20px solid var(--accents);
+    padding-left: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+.tehnologije h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.tehnologije ul li {
+    font-size: 40px;
+    line-height: 1.5;
+    color: var(--accents);
+}
+.tehnologije ul li i {
+    margin-right: 20px;
+}
 /* responsive */
 @media(max-width: 767px) {
     h1 {
